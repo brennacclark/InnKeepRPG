@@ -1,0 +1,15 @@
+{
+    "id": "aef19481-8ef2-476a-b41e-e1215efc03a2",
+    "modelName": "GMFolder",
+    "mvc": "1.1",
+    "name": "aef19481-8ef2-476a-b41e-e1215efc03a2",
+    "children": [
+        "a57d129f-b38e-4919-b419-575569d92cff",
+        "ca3f976b-3a71-4fa3-98e8-d94f14562d2d",
+        "c49645b6-d753-45a1-9dea-ae9027634916"
+    ],
+    "filterType": "GMObject",
+    "folderName": "Meta",
+    "isDefaultView": false,
+    "localisedFolderName": ""
+}
