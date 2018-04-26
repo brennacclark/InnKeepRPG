@@ -1,5 +1,6 @@
 /// @description Initialize PLayer
 
+
 // ----- player sprite sheets
 spr_base	= spr_base_female_1;
 spr_feet	= spr_feet_female_brown_boots;
@@ -22,6 +23,12 @@ y_offset = sprite_get_yoffset(mask_index);
 
 // ----- player speed
 spd = 2;
+
+
+
+
+
+
 
 
 
