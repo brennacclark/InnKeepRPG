@@ -1,5 +1,6 @@
 /// @description obj_crop Init
 
+
 frameWidth = 32;
 frameHeight = 64; 
 

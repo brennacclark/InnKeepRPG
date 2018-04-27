@@ -1,5 +1,7 @@
 /// @description Planting 
 
+if(room != rm_farm){ planting = false; exit; }
+
 if(keyboard_check_pressed(ord("P"))){ planting = !planting; } 
 
 if(planting){
