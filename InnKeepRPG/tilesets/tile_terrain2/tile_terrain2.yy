@@ -84,7 +84,7 @@
             "modelName": "GMAutoTileSet",
             "mvc": "1.0",
             "closed_edge": false,
-            "name": "autotile_1",
+            "name": "autotile_sand",
             "tiles": [
                 112,
                 49,
@@ -101,6 +101,31 @@
                 144,
                 143,
                 145,
+                0
+            ]
+        },
+        {
+            "id": "04331a89-6ca0-4458-906c-0cb943841d0d",
+            "modelName": "GMAutoTileSet",
+            "mvc": "1.0",
+            "closed_edge": false,
+            "name": "autotile_soil",
+            "tiles": [
+                582,
+                519,
+                518,
+                550,
+                487,
+                581,
+                646,
+                549,
+                486,
+                647,
+                583,
+                551,
+                614,
+                613,
+                615,
                 0
             ]
         }
