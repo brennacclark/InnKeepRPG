@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Set Player Values
 
 roomWidth = room_width;
 roomHeight = room_height; 

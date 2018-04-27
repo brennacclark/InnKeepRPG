@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Camera2
 
 following = obj_player;
 h_border = 300;

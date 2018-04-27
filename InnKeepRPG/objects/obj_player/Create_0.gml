@@ -1,4 +1,4 @@
-/// @description Initialize PLayer
+/// @description Initialize Player
 
 
 // ----- player sprite sheets
@@ -11,8 +11,8 @@ spr_shadow	= spr_character_shadow;
 
 
 // ----- player coordinates
-x_frame = 0;
-y_frame = 704;
+x_frame = 1;
+y_frame = 9;
 
 
 // -----  offset for collision mask

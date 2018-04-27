@@ -1,16 +1,16 @@
-// @description Handle Player Movement
+///@description Handle Player Movement
 
- //----- update input
+//----- update input
 input_left	= keyboard_check(ord("A"));
 input_right = keyboard_check(ord("D"));
 input_up	= keyboard_check(ord("W"));
 input_down	= keyboard_check(ord("S"));
 
- //----- reset move variables
+//----- reset move variables
 moveX = 0;
 moveY = 0;
 
- //----- intended movement
+//----- intended movement
 moveX = (input_right - input_left) * spd;
 moveY = (input_down - input_up) * spd;
 
@@ -52,7 +52,7 @@ if(moveY != 0){
 	}	
 }
 
- //----- objects
+//----- objects
 var inst = instance_place(x,y, obj_transition);
 if(inst != noone and facing == inst.playerFacingBefore){
 	with(game){
@@ -69,6 +69,6 @@ if(inst != noone and facing == inst.playerFacingBefore){
 
 
 
- //----- move farmer
+//----- move farmer
 x += moveX;
 y += moveY;

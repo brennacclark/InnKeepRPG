@@ -28,7 +28,6 @@ if(cell == 0){
 	i_grid[#gx, gy] = inst;
 
 	//----- give the crop its characteristics
-
 	with(inst){
 		cropType = argument2;
 		growthStageDuration = crops.ds_crops_types[# 0, cropType];

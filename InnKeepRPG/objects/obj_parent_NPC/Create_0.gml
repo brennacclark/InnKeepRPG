@@ -11,8 +11,8 @@ spr_shadow	= spr_character_shadow;
 
 
 // ----- npc coordinates
-x_frame = 0;
-y_frame = 704;
+x_frame = 1;
+y_frame = 9;
 
 
 moveX = 0;

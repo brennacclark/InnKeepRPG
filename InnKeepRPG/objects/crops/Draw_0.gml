@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description Draw crop and rectangle
 if(!planting) exit; 
 
 var cs = cellSize;
@@ -14,10 +13,8 @@ if( cell == 0){
 	if( data != 0){ c = c_lime; }
 }
 
-var xx = gx*cs;
-var yy = gy*cs;
-
-
+xx = gx*cs;
+yy = gy*cs;
 
 
 draw_rectangle_color(xx, yy, xx+cs, yy+cs, c, c, c, c, true);
