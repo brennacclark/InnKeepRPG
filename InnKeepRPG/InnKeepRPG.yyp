@@ -431,6 +431,14 @@
             }
         },
         {
+            "Key": "87a9b3c7-5407-491b-8677-9874ed01f93b",
+            "Value": {
+                "id": "056d2fab-eba2-4d69-8d6f-288c7f1de297",
+                "resourcePath": "objects\\depthsorter\\depthsorter.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8c6760db-53c2-4cf3-af03-92275bf60eee",
             "Value": {
                 "id": "9a4f56e0-5866-45f9-9d2f-3b979d223fc7",
@@ -599,6 +607,14 @@
             }
         },
         {
+            "Key": "c996f785-5a96-4989-879f-7fe73084d34b",
+            "Value": {
+                "id": "01f0b0ab-65dc-467d-995f-04885923bf07",
+                "resourcePath": "objects\\par_depthobject\\par_depthobject.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ca3f976b-3a71-4fa3-98e8-d94f14562d2d",
             "Value": {
                 "id": "da095b51-8f39-49d9-9651-2e87cebabaef",
@@ -650,7 +666,7 @@
             "Key": "d5bf336c-e0ec-4f49-a8c6-a2a77103336a",
             "Value": {
                 "id": "0bcb2b21-6cd0-4164-b302-e70e8dd5bd58",
-                "resourcePath": "objects\\obj_parent_NPC\\obj_parent_NPC.yy",
+                "resourcePath": "objects\\par_NPC\\par_NPC.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -659,6 +675,14 @@
             "Value": {
                 "id": "c41636ea-596b-4a17-847c-e2121c372d3a",
                 "resourcePath": "views\\d98c6257-60a7-4d1d-9588-efe05d23bd53.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ddff10fb-9099-4f0a-932c-adf611ec2375",
+            "Value": {
+                "id": "949c31e2-4f6e-48fe-8ac1-ae145127e849",
+                "resourcePath": "views\\ddff10fb-9099-4f0a-932c-adf611ec2375.yy",
                 "resourceType": "GMFolder"
             }
         },
