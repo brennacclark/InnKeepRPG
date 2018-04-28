@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "3b1aaf71-05d0-4e85-a929-45ffa5638022",
+            "Value": {
+                "id": "99122f32-216d-4243-b358-c9b7d5e87754",
+                "resourcePath": "rooms\\rm_inn_downstairs\\rm_inn_downstairs.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "3d264e74-4a5d-4272-bbed-5623b8ff3f82",
             "Value": {
                 "id": "5e488400-fea9-4482-88d1-ee5f489f0233",
@@ -527,6 +535,14 @@
             }
         },
         {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "3197ca80-f563-4d2b-a474-48ee4b5bd3a3",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
             "Key": "aad8f4dc-b870-4ad0-a190-8a35f4ee0084",
             "Value": {
                 "id": "73e63d74-fd5d-4242-86ec-75b686a37b0f",
@@ -724,6 +740,14 @@
                 "id": "320f930e-455a-4e8d-ab63-3f084cd0cf3e",
                 "resourcePath": "views\\eee49c2c-9e34-4b64-86d3-bdcac5dda48a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "270deff7-e822-495f-bbbe-ff5497972dfe",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
             }
         },
         {

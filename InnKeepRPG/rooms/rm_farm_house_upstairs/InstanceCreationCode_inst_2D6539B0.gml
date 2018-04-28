@@ -1,5 +1,5 @@
-targetRoom=rm_farm_house;
-targetX = 457;
-targetY = 208;
+targetRoom=rm_inn_downstairs;
+targetX = 620;
+targetY = 375;
 playerFacingBefore = dir.down;
 playerFacingAfter = dir.left;
