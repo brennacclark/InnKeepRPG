@@ -1,4 +1,4 @@
-/// @description Draw NPC_PARENT Appearance
+/// @description Draw par_NPC Appearance
 
 var anim_length = 9;
 var frame_size = 64;

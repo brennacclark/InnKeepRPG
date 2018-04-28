@@ -1,4 +1,4 @@
-/// @description Randomize NPC_PARENT Movement
+/// @description Randomize par_NPC Movement
 
 moveX = 0;
 moveY = 0;

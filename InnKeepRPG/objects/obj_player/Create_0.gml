@@ -1,5 +1,5 @@
 /// @description Initialize Player
-
+event_inherited();
 
 // ----- player sprite sheets
 spr_base	= spr_base_female_1;
