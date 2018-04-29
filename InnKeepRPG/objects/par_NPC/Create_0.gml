@@ -1,4 +1,5 @@
-/// @description Initialize NPC_PARENT
+/// @description Initialize par_NPC
+event_inherited();
 
 
 // ----- npc sprite sheets

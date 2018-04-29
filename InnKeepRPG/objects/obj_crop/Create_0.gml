@@ -1,4 +1,4 @@
-/// @description obj_crop Init
+collideable = false;
 
 
 frameWidth = 32;
