@@ -1,4 +1,6 @@
-/// @description 
+/// @description Spawn crops
+
+
 if(room == rm_farm){
 	ds_crops_instances = ds_grid_create(room_width div cellSize, room_height div cellSize);
 	ds_grid_clear(ds_crops_instances, 0);
@@ -19,6 +21,7 @@ if(room == rm_farm){
 		}
 
 		with(obj_crop){
+
 			//First growth
 			var firstGrowth = 0;
 			if(daysOld > 0){ firstGrowth = 1; }
@@ -27,7 +30,7 @@ if(room == rm_farm){
 			if(growthStage >= maxGrowthStage) {
 				growthStage = maxGrowthStage;
 				fullyGrown = true;
-				alarm[1] = 1;
+				alarm[1] = 1; //sparkle;
 			}
 		
 		}
