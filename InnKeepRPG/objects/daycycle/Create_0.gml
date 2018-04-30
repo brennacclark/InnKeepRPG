@@ -10,9 +10,10 @@ year = 1;
 
 monthlength = 30;
 
-time_increment = 1000;//seconds per step
+time_increment = 100;//seconds per step
 time_pause = true;
 
+max_darkness = 0.5;
 darkness = 0; 
 light_color = c_navy;
 draw_daylight = false;
@@ -20,3 +21,9 @@ draw_daylight = false;
 guiWidth = display_get_gui_width();
 guiHeight = display_get_gui_height();
 
+enum phase {
+	sunrise = 6,
+	daytime = 9.5,
+	sunset = 18,
+	nighttime = 23,
+}
