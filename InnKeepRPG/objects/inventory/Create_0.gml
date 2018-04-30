@@ -40,6 +40,12 @@ info_y = inv_UI_y + (9*scale);		// 9px for spr_inventory_UI
 slots_x = info_x;
 slots_y = inv_UI_y + (40*scale);	// 40px for spr_inventory_UI
 
+desc_x = slots_x;
+desc_y = inv_UI_y + (156*scale);	// 156px for spr_inventory_UI
+
+string_H = string_height("M");		// get separation width for item description
+									// next lines based on "M" height
+
 //----- player info
 //----- 0 = name
 //----- 1 = gold
@@ -82,6 +88,51 @@ enum item {
 	mushroom	= 16, 
 	height		= 17,	
 }
+
+#region create item description grid
+ds_items_info = ds_grid_create(2, item.height);
+
+//----- items names
+var z = 0, i = 0;
+ds_items_info[# z, i++] = "Nothing";
+ds_items_info[# z, i++] = "Tomato";
+ds_items_info[# z, i++] = "Potato";
+ds_items_info[# z, i++] = "Carrot";
+ds_items_info[# z, i++] = "Artichoke";
+ds_items_info[# z, i++] = "Chilli";
+ds_items_info[# z, i++] = "Gourd";
+ds_items_info[# z, i++] = "Corn";
+ds_items_info[# z, i++] = "Wood";
+ds_items_info[# z, i++] = "Stone";
+ds_items_info[# z, i++] = "Bucket";
+ds_items_info[# z, i++] = "Chair";
+ds_items_info[# z, i++] = "Picture";
+ds_items_info[# z, i++] = "Axe";
+ds_items_info[# z, i++] = "Potion";
+ds_items_info[# z, i++] = "Starfish";
+ds_items_info[# z, i++] = "Mushroom";
+
+//----- items names
+var z = 1, i = 0;
+ds_items_info[# z, i++] = "Empty.";											// empty
+ds_items_info[# z, i++] = "To-mah...may-to.";								// tomato
+ds_items_info[# z, i++] = "Pre-chips.";										// potato
+ds_items_info[# z, i++] = "Keep away from rabbits.";						// carrot
+ds_items_info[# z, i++] = "The heartiest vegetable.";						// artichoke
+ds_items_info[# z, i++] = "But oddly hot.";									// chilli
+ds_items_info[# z, i++] = "Or is it an eggplant?";							// gourd
+ds_items_info[# z, i++] = "Better Popped.";									// corn
+ds_items_info[# z, i++] = "Knock on it.";									// wood						
+ds_items_info[# z, i++] = "There's nothing written on it.";					// stone
+ds_items_info[# z, i++] = "You could fit a bucket-full of water in here.";	// bucket
+ds_items_info[# z, i++] = "This chair is just right.";						// chair
+ds_items_info[# z, i++] = "Look at this photograph.";						// picture
+ds_items_info[# z, i++] = "And my...";										// axe		
+ds_items_info[# z, i++] = "This liquid looks...oozy.";						// potion
+ds_items_info[# z, i++] = "Pointy.";											// starfish
+ds_items_info[# z, i++] = "A fungus; not mush room for interpretation.";		// mushroom
+
+#endregion
 
 
 var yy = 0; repeat(inv_slots){

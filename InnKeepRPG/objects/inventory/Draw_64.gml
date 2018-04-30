@@ -82,6 +82,21 @@ repeat(inv_slots){
 	iy = ii div inv_slots_width;
 }
 
+//----- draw item description
+var iinfo_grid = ds_items_info, description = "";
+var iitem = inv_grid[# 0, selected_slot];
+var sH = string_H;
+
+if(iitem > 0){
+	description = iinfo_grid[# 0, iitem] + ". " + iinfo_grid[# 1, iitem];
+	//----- if the text goes longer than a width, nextline
+	draw_set_font(fnt_text_12);
+	c = c_black;
+	draw_text_ext_color(desc_x, desc_y, description, sH, (inv_UI_width*scale) - (x_buffer*2), c, c, c, c, 1 );
+
+}
+
+
 if(pickup_slot != -1){
 	//----- item
 	iitem = inv_grid[# 0, pickup_slot];
