@@ -20,8 +20,7 @@ y_buffer = 4;
 gui_width = display_get_gui_width();
 gui_height = display_get_gui_height();
 
-//----- change cell_size in crops ev_create
-cell_size = crops.cellSize;
+cell_size = 32;
 
 inv_UI_width = 288;
 inv_UI_height = 192;
