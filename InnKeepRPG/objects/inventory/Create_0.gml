@@ -8,13 +8,20 @@ inv_slots = 17;
 inv_slots_width = 8;
 inv_slots_height = 3;
 
+selected_slot = 0;
+pickup_slot = -1;
+m_slotx = 0;
+m_sloty = 0;
+
+
 x_buffer = 2;
 y_buffer = 4;
 
 gui_width = display_get_gui_width();
 gui_height = display_get_gui_height();
 
-cell_size = 32;
+//----- change cell_size in crops ev_create
+cell_size = crops.cellSize;
 
 inv_UI_width = 288;
 inv_UI_height = 192;
