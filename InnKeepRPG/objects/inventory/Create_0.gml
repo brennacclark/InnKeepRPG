@@ -28,8 +28,8 @@ inv_UI_height = 192;
 spr_inv_UI = spr_inventory_UI;
 spr_inv_items = spr_inventory_items;
 
-spr_inv_item_columns = sprite_get_width(spr_inv_items)/cell_size;
-spr_inv_item_rows = sprite_get_height(spr_inv_items)/cell_size;
+spr_inv_item_columns = sprite_get_width(spr_inv_items/cell_size);
+spr_inv_item_rows = sprite_get_height(spr_inv_items/cell_size);
 
 inv_UI_x = (gui_width * 0.5) - (inv_UI_width * 0.5 * scale);
 inv_UI_y = (gui_height * 0.5) - (inv_UI_height * 0.5 * scale);
@@ -42,9 +42,6 @@ slots_y = inv_UI_y + (40*scale);	// 40px for spr_inventory_UI
 
 desc_x = slots_x;
 desc_y = inv_UI_y + (156*scale);	// 156px for spr_inventory_UI
-
-x_frame = 0;
-y_frame = 0;
 
 string_H = string_height("M");		// get separation width for item description
 									// next lines based on "M" height
@@ -139,7 +136,7 @@ ds_items_info[# z, i++] = "A fungus; not mush room for interpretation.";		// mus
 
 
 var yy = 0; repeat(inv_slots){
-	ds_inventory[# 0, yy] = irandom_range(1, (item.height-1)); 
-	ds_inventory[# 1, yy] = irandom_range(1,10);
+	ds_inventory[# 0,yy] = irandom_range(1, item.height-1); 
+	ds_inventory[# 1,yy] = irandom_range(1,10);
 	yy++;
 }

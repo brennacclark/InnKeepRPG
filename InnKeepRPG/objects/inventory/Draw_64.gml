@@ -35,7 +35,6 @@ repeat(inv_slots){
 	sx = (iitem mod spr_inv_item_columns)*cell_size;
 	sy = (iitem div spr_inv_item_columns)*cell_size;
 	
-	
 	//----- draw slot + item
 	draw_sprite_part_ext(spr_inv_UI, 0, 0, 0, cell_size, cell_size, xx, yy, scale, scale, c_white, 1,);
 	
@@ -61,7 +60,6 @@ repeat(inv_slots){
 		
 		default:
 				if(iitem > 0) {
-					
 					draw_sprite_part_ext(
 						spr_inv_items, 0, sx, sy, cell_size, cell_size, 
 						xx, yy, scale, scale, c_white, 1 );
