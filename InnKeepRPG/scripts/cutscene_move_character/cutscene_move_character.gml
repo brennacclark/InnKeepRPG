@@ -1,4 +1,4 @@
-///@description
+///@description cutscene_move_character
 ///@arg obj
 ///@arg x
 ///@arg y 
@@ -30,12 +30,9 @@ with(obj){
 		var ldirx = lengthdir_x(spd, dir);
 		var ldiry = lengthdir_y(spd, dir);
 			
-		obj.moveX += ldirx;
-		obj.moveY += ldiry;
+		obj.moveX = ldirx;
+		obj.moveY = ldiry;
 	} else {
-		obj.moveX += xx;
-		obj.moveY += yy;
-		
 		with(other){
 			x_dest = -1;
 			y_dest = -1;
