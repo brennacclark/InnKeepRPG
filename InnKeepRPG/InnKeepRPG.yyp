@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "12557cf9-b9ab-4d48-a247-5203ff39bfca",
+            "Value": {
+                "id": "79e8831a-cc07-4b57-95df-4563433abbde",
+                "resourcePath": "scripts\\stop_moving_character\\stop_moving_character.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "12de24a4-13ce-4fe4-824d-9cac1e492517",
             "Value": {
                 "id": "ebe4e7ba-0d9b-40d4-82ef-5354e1c9b494",
@@ -1007,6 +1015,14 @@
             }
         },
         {
+            "Key": "e1c91a49-4255-4775-b2fa-f5c92b194809",
+            "Value": {
+                "id": "cc210d55-f51e-4331-83e5-552d512e7585",
+                "resourcePath": "scripts\\cutscene_stop_character\\cutscene_stop_character.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e20da1c9-c1e5-4049-a430-e9177a95cf25",
             "Value": {
                 "id": "3d735f76-be9b-486b-b639-66d5aaa7de05",
@@ -1167,6 +1183,7 @@
         "02b64646-c801-4133-aeb3-8010c5e68374",
         "d0920d42-1f22-4ed6-a465-47018b1f246b",
         "f6cb6cac-ed2c-4524-b624-641487e54b15",
+        "12557cf9-b9ab-4d48-a247-5203ff39bfca",
         "f8b68c17-a570-49db-937b-cdd60f4a99c7",
         "13a9019a-0371-4863-b20a-cc19bc14e398",
         "37a5537e-b701-45d9-8742-275b5c5b20e4",
@@ -1177,6 +1194,7 @@
         "abdbaffc-fa58-4fee-b5b3-2df5f1bae346",
         "1f9a20c2-ebb2-470a-87aa-ecab72c6350b",
         "f3331d51-825b-4abc-a639-f87d96c359d4",
+        "e1c91a49-4255-4775-b2fa-f5c92b194809",
         "cc6033ae-7180-4446-bb86-d96a72cdd8a8"
     ],
     "tutorial": ""
