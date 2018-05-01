@@ -1,7 +1,7 @@
 /// @description Inventory + ds_player_info Init
 
 depth = -1;
-scale = 2;
+scale = 1;
 show_inventory = false;
 
 inv_slots = 17;
@@ -43,6 +43,7 @@ slots_y = inv_UI_y + (40*scale);	// 40px for spr_inventory_UI
 desc_x = slots_x;
 desc_y = inv_UI_y + (156*scale);	// 156px for spr_inventory_UI
 
+draw_set_font(fnt_text_8);
 string_H = string_height("M");		// get separation width for item description
 									// next lines based on "M" height
 

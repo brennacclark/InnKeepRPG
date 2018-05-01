@@ -9,7 +9,7 @@ draw_sprite_part_ext(spr_inv_UI, 0, cell_size, 0, inv_UI_width,
 
 var info_grid = ds_player_info;
 
-draw_set_font(fnt_text_24);
+draw_set_font(fnt_text_12);
 var c = c_black;
 draw_text_color(info_x, info_y, info_grid[# 0, 0] + ": " + info_grid[# 1, 0], c,c,c,c, 1 );
 
@@ -72,6 +72,7 @@ repeat(inv_slots){
 	//----- draw item number 
 	if(iitem > 0){
 		var number = inv_grid[# 1, ii];
+		draw_set_font(fnt_text_8);
 		draw_text_color(xx, yy, string(number), c, c, c, c, 1);
 	}
 	
@@ -85,12 +86,12 @@ repeat(inv_slots){
 //----- draw item description
 var iinfo_grid = ds_items_info, description = "";
 var iitem = inv_grid[# 0, selected_slot];
+draw_set_font(fnt_text_8);
 var sH = string_H;
 
 if(iitem > 0){
 	description = iinfo_grid[# 0, iitem] + ". " + iinfo_grid[# 1, iitem];
 	//----- if the text goes longer than a width, nextline
-	draw_set_font(fnt_text_12);
 	c = c_black;
 	draw_text_ext_color(desc_x, desc_y, description, sH, (inv_UI_width*scale) - (x_buffer*2), c, c, c, c, 1 );
 

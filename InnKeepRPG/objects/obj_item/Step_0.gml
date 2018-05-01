@@ -56,9 +56,49 @@ if(drop_move){	//----- while drop_move is true move the item to goal
 			
 			//----- destroy item
 			if(picked_up){
+				#region Create Notification
+				if(!instance_exists(obj_notification)) {instance_create_layer(0,0, "Instances", obj_notification)};
+				var in = item_num;
+				
+				with(obj_notification){				// if the grid does not exist create it
+					if(!ds_exists(ds_notifications, ds_type_grid)){
+						ds_notifications = ds_grid_create(2,1);
+						var not_grid = ds_notifications;
+						not_grid[# 0, 0] = 1;
+						not_grid[# 1, 0] = inventory.ds_items_info[# 0 , in];
+						
+					} else {						// grid is created. add notification
+						event_perform(ev_other, ev_user0);
+						
+						var not_grid = ds_notifications;
+						var grid_height = ds_grid_height(not_grid);
+						var name = inventory.ds_items_info[# 0, in];
+						var in_grid = false;
+						
+						var yy = 0; repeat(grid_height){
+							if(name == not_grid[# 1, yy]){	// our item type exists in grid
+								not_grid[# 0, yy] += 1;
+								in_grid = true;
+								break;
+							} 							
+							yy++;
+						}
+						
+						if(!in_grid){
+							ds_grid_resize(not_grid, 2, grid_height+1);
+							not_grid[# 0, grid_height] = 1;
+							not_grid[# 1, grid_height] = inventory.ds_items_info[# 0 , in];
+						}
+					
+					}	
+				
+				}
+				
+				#endregion
+				
 				instance_destroy();
 				show_debug_message("SystemPrint: Picked up an item");
 			}
-		}
-	}
-}
+		} // end else
+	} // end if point_in_rectangle
+} // end else Check for pickups.

@@ -37,7 +37,7 @@ selected_slot = min(inv_slots-1, m_slotx + (m_sloty *inv_slots_width));
 //----- pickup item
 var inv_grid = ds_inventory;
 var ss_item = inv_grid[# 0, selected_slot];
-
+var create_notification = false;
 
 //------ we are picking something up
 if(pickup_slot != -1){
@@ -45,8 +45,11 @@ if(pickup_slot != -1){
 		if(!mouse_in_inventory){										// mouse is off inventory
 			#region drop item into game world
 			
+			create_notification = true;
+			
 			//----- get item code to drop
 			var pitem = inv_grid[# 0, pickup_slot];
+			var in = pitem;
 		
 			//----- take 1qty away from inventory stack
 			inv_grid[# 1, pickup_slot] -= 1;
@@ -102,6 +105,10 @@ if(pickup_slot != -1){
 } else if(ss_item != item.none){
 	//----- drop item into game world
 	if(mouse_check_button_pressed(mb_middle)){
+		
+		create_notification = true;
+		var in = inv_grid[# 0, selected_slot];
+		
 		//----- take 1qty away from inventory stack
 		inv_grid[# 1, selected_slot] -= 1;
 		
@@ -126,4 +133,46 @@ if(pickup_slot != -1){
 	if(mouse_check_button_pressed(mb_right)){
 		pickup_slot = selected_slot;
 	}
+}
+
+if(create_notification){
+	#region Create Notification
+	if(!instance_exists(obj_notification)) {instance_create_layer(0,0, "Instances", obj_notification)};
+
+				
+	with(obj_notification){				// if the grid does not exist create it
+		if(!ds_exists(ds_notifications, ds_type_grid)){
+			ds_notifications = ds_grid_create(2,1);
+			var not_grid = ds_notifications;
+			not_grid[# 0, 0] = -1;
+			not_grid[# 1, 0] = inventory.ds_items_info[# 0 , in];
+						
+		} else {						// grid is created. add notification
+			event_perform(ev_other, ev_user0);
+						
+			var not_grid = ds_notifications;
+			var grid_height = ds_grid_height(not_grid);
+			var name = inventory.ds_items_info[# 0, in];
+			var in_grid = false;
+						
+			var yy = 0; repeat(grid_height){
+				if(name == not_grid[# 1, yy]){	// our item type exists in grid
+					not_grid[# 0, yy] -= 1;
+					in_grid = true;
+					break;
+				} 							
+				yy++;
+			}
+						
+			if(!in_grid){
+				ds_grid_resize(not_grid, 2, grid_height+1);
+				not_grid[# 0, grid_height] = -1;
+				not_grid[# 1, grid_height] = inventory.ds_items_info[# 0 , in];
+			}
+					
+		}	
+				
+	}
+				
+	#endregion
 }
