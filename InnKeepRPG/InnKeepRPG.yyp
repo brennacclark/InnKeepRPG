@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0752925f-b8b1-49ab-8ff1-7dd445bb6375",
+            "Value": {
+                "id": "4aac8ca7-5524-4109-bbd1-7d07f575c9e5",
+                "resourcePath": "objects\\obj_textbox\\obj_textbox.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "0cd58a9d-c28d-4295-9e14-324c22e4e613",
             "Value": {
                 "id": "3133afd1-0267-42a9-8bc3-41deb05731ca",
@@ -132,6 +140,14 @@
                 "id": "81d519c6-fdf7-4e70-9372-8a626ff563e2",
                 "resourcePath": "views\\1a261d43-e065-40d0-b39a-d0337876e33f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1f04e8f7-1930-4a4d-81be-99530bbf27a9",
+            "Value": {
+                "id": "20894f94-82d0-4623-b160-d819ae8fa3ee",
+                "resourcePath": "sprites\\spr_namebox\\spr_namebox.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -327,6 +343,14 @@
             }
         },
         {
+            "Key": "55b67a50-5246-49da-8ffd-9c8f74847b48",
+            "Value": {
+                "id": "9f62ae8b-9b64-4556-9435-1e30f46709b9",
+                "resourcePath": "sprites\\spr_textbox\\spr_textbox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "55f7997d-5354-4d3c-a909-56eb9db11d46",
             "Value": {
                 "id": "79b449f4-9860-456e-83b0-d8fcc28b17be",
@@ -507,6 +531,14 @@
             "Value": {
                 "id": "952e2f96-f5ab-4001-8f30-d7afba4a4f4d",
                 "resourcePath": "sprites\\spr_crops_picked\\spr_crops_picked.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "854a5bea-fe39-4655-bf9d-2a891ac9e938",
+            "Value": {
+                "id": "4d67e31e-37d5-476e-ae1e-63e45d663a5f",
+                "resourcePath": "sprites\\spr_portrait_frame\\spr_portrait_frame.yy",
                 "resourceType": "GMSprite"
             }
         },
