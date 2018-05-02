@@ -391,11 +391,27 @@
             }
         },
         {
+            "Key": "63a4ad6a-4954-4885-8636-ffb61efb83bc",
+            "Value": {
+                "id": "4514507b-d38c-4f25-a231-b043bdc50c5c",
+                "resourcePath": "tilesets\\tile_timefantasy_indoors\\tile_timefantasy_indoors.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "64ebe63e-5b63-423e-b26d-1deb0c0a3962",
             "Value": {
                 "id": "9e1126d0-f1fe-49de-b68d-28f16270d81a",
                 "resourcePath": "views\\64ebe63e-5b63-423e-b26d-1deb0c0a3962.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "64facfa9-5f8a-414e-93f3-4024dc3cefb3",
+            "Value": {
+                "id": "51096e58-ce0e-43ed-bcc8-c5ca6684876d",
+                "resourcePath": "sprites\\spr_tile_timefantasy_indoors\\spr_tile_timefantasy_indoors.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -644,6 +660,14 @@
                 "id": "324c48fe-387d-4afd-be85-10f420343095",
                 "resourcePath": "objects\\obj_Evan\\obj_Evan.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9e9edddc-66e8-42c1-b968-ea29abc10052",
+            "Value": {
+                "id": "758de086-2d23-4a21-8194-26e458b4e0c3",
+                "resourcePath": "rooms\\rm_inn_upstairs\\rm_inn_upstairs.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
