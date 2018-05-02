@@ -5,7 +5,7 @@ var inst_num = instance_number(par_depthobject);
 var dgrid = ds_depthgrid;
 
 //------ resize grid
-if (ds_grid_height(ds_depthgrid) != inst_num) {
+if (ds_grid_height(ds_depthgrid) != inst_num and inst_num > 0) {
 	ds_grid_resize(dgrid, 2, inst_num);
 }
 
