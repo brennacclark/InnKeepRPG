@@ -15,8 +15,8 @@ if(x_dest == -1){
 		x_dest = argument1; 
 		y_dest = argument2; 
 	} else {
-		x_dest = x + argument1; 
-		y_dest = x + argument2; 
+		x_dest = obj.x + argument1; 
+		y_dest = obj.y + argument2; 
 	}
 }
 
@@ -30,8 +30,8 @@ with(obj){
 		var ldirx = lengthdir_x(spd, dir);
 		var ldiry = lengthdir_y(spd, dir);
 			
-		moveX = ldirx;
-		moveY = ldiry;
+		obj.moveX = ldirx;
+		obj.moveY = ldiry;
 	} else {
 		with(other){
 			x_dest = -1;

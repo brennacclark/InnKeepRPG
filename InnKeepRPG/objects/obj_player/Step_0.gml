@@ -58,7 +58,7 @@ else if (moveY != 0){
 }
 
 
-//----- objects and transitions
+//----- objects
 var inst = instance_place(x,y, obj_transition);
 if(inst != noone and facing == inst.playerFacingBefore){
 	with(game){
@@ -71,6 +71,8 @@ if(inst != noone and facing == inst.playerFacingBefore){
 		}
 	}
 }
+
+
 
 
 //----- move farmer
