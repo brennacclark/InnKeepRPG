@@ -8,8 +8,12 @@
     "inheritLayers": false,
     "instanceCreationOrderIDs": [
         "dc010e93-60d1-4cbb-b5bd-f83597ac5ecf",
+<<<<<<< HEAD
         "d23eebd2-17fe-40e4-9d14-488585b5cdc1",
         "fee88961-184e-479b-932e-2be79ea7c358"
+=======
+        "d23eebd2-17fe-40e4-9d14-488585b5cdc1"
+>>>>>>> parent of 88ea4b5... Revert "Merge branch 'DeliveryStream_Wyatt' into DeliveryStream_BC"
     ],
     "IsDnD": false,
     "layers": [
@@ -53,8 +57,12 @@
             "inheritSubLayers": false,
             "inheritVisibility": false,
             "instances": [
+<<<<<<< HEAD
 {"name": "inst_5893E21F","id": "d23eebd2-17fe-40e4-9d14-488585b5cdc1","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_5893E21F","objId": "46642f4d-c09e-4ed2-8399-e6d988837f99","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 32,"y": 32},
 {"name": "inst_70F7379F","id": "fee88961-184e-479b-932e-2be79ea7c358","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_70F7379F","objId": "3302f8d8-24da-469c-8869-01af864c9d47","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 32,"y": 384}
+=======
+{"name": "inst_5893E21F","id": "d23eebd2-17fe-40e4-9d14-488585b5cdc1","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_5893E21F","objId": "46642f4d-c09e-4ed2-8399-e6d988837f99","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": 32,"y": 32}
+>>>>>>> parent of 88ea4b5... Revert "Merge branch 'DeliveryStream_Wyatt' into DeliveryStream_BC"
             ],
             "layers": [
 
