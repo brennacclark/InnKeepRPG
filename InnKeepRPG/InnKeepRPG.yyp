@@ -447,7 +447,6 @@
             }
         },
         {
-<<<<<<< HEAD
             "Key": "5d7943e3-8311-4a27-b49c-9ab097e387b6",
             "Value": {
                 "id": "b4839359-38b1-4a20-8d65-35d4f166564a",
@@ -456,8 +455,6 @@
             }
         },
         {
-=======
->>>>>>> parent of f527ffc... New tilesets and rm_inn_upstairs
             "Key": "64ebe63e-5b63-423e-b26d-1deb0c0a3962",
             "Value": {
                 "id": "9e1126d0-f1fe-49de-b68d-28f16270d81a",
@@ -467,7 +464,6 @@
         },
         {
             "Key": "650d1fa2-3375-4cb8-adbd-14c4cad37f0f",
-<<<<<<< HEAD
             "Value": {
                 "id": "a7190a53-bb11-40ec-9500-5ab9dd2f04bf",
                 "resourcePath": "sprites\\spr_feet_female_black_shoes\\spr_feet_female_black_shoes.yy",
@@ -476,8 +472,6 @@
         },
         {
             "Key": "6558407e-28db-4cf1-aba5-1604c097c1c9",
-=======
->>>>>>> parent of f527ffc... New tilesets and rm_inn_upstairs
             "Value": {
                 "id": "0cc13351-6827-4e11-b56f-b4b5afebcc94",
                 "resourcePath": "sprites\\spr_trigger_perm\\spr_trigger_perm.yy",
