@@ -191,7 +191,6 @@
             }
         },
         {
-
             "Key": "1ff35523-327c-4e21-a707-e560416d7988",
             "Value": {
                 "id": "7b692528-d99d-4fa5-8331-22225677ffc4",
@@ -248,7 +247,6 @@
             }
         },
         {
-
             "Key": "2db79537-539a-4313-ad72-84d0e548b789",
             "Value": {
                 "id": "6fba9ebf-5b41-491d-b037-3d9129c53728",
@@ -449,25 +447,11 @@
             }
         },
         {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 1041f6897897237ff08cc62d9ce7bb1b8a4e2775
             "Key": "5d7943e3-8311-4a27-b49c-9ab097e387b6",
             "Value": {
                 "id": "b4839359-38b1-4a20-8d65-35d4f166564a",
                 "resourcePath": "objects\\obj_trigger_perm\\obj_trigger_perm.yy",
                 "resourceType": "GMObject"
-<<<<<<< HEAD
-=======
-            "Key": "63a4ad6a-4954-4885-8636-ffb61efb83bc",
-            "Value": {
-                "id": "4514507b-d38c-4f25-a231-b043bdc50c5c",
-                "resourcePath": "tilesets\\tile_timefantasy_indoors\\tile_timefantasy_indoors.yy",
-                "resourceType": "GMTileSet"
->>>>>>> master
-=======
->>>>>>> 1041f6897897237ff08cc62d9ce7bb1b8a4e2775
             }
         },
         {
@@ -1212,7 +1196,6 @@
         "f3331d51-825b-4abc-a639-f87d96c359d4",
         "e1c91a49-4255-4775-b2fa-f5c92b194809",
         "cc6033ae-7180-4446-bb86-d96a72cdd8a8"
-        "d0920d42-1f22-4ed6-a465-47018b1f246b"
     ],
     "tutorial": ""
 }
