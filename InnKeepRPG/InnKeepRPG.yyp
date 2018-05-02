@@ -191,6 +191,7 @@
             }
         },
         {
+
             "Key": "1ff35523-327c-4e21-a707-e560416d7988",
             "Value": {
                 "id": "7b692528-d99d-4fa5-8331-22225677ffc4",
@@ -247,6 +248,7 @@
             }
         },
         {
+
             "Key": "2db79537-539a-4313-ad72-84d0e548b789",
             "Value": {
                 "id": "6fba9ebf-5b41-491d-b037-3d9129c53728",
@@ -448,11 +450,15 @@
         },
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1041f6897897237ff08cc62d9ce7bb1b8a4e2775
             "Key": "5d7943e3-8311-4a27-b49c-9ab097e387b6",
             "Value": {
                 "id": "b4839359-38b1-4a20-8d65-35d4f166564a",
                 "resourcePath": "objects\\obj_trigger_perm\\obj_trigger_perm.yy",
                 "resourceType": "GMObject"
+<<<<<<< HEAD
 =======
             "Key": "63a4ad6a-4954-4885-8636-ffb61efb83bc",
             "Value": {
@@ -460,6 +466,8 @@
                 "resourcePath": "tilesets\\tile_timefantasy_indoors\\tile_timefantasy_indoors.yy",
                 "resourceType": "GMTileSet"
 >>>>>>> master
+=======
+>>>>>>> 1041f6897897237ff08cc62d9ce7bb1b8a4e2775
             }
         },
         {
@@ -468,14 +476,6 @@
                 "id": "9e1126d0-f1fe-49de-b68d-28f16270d81a",
                 "resourcePath": "views\\64ebe63e-5b63-423e-b26d-1deb0c0a3962.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "64facfa9-5f8a-414e-93f3-4024dc3cefb3",
-            "Value": {
-                "id": "51096e58-ce0e-43ed-bcc8-c5ca6684876d",
-                "resourcePath": "sprites\\spr_tile_timefantasy_indoors\\spr_tile_timefantasy_indoors.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -740,14 +740,6 @@
                 "id": "324c48fe-387d-4afd-be85-10f420343095",
                 "resourcePath": "objects\\obj_Evan\\obj_Evan.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "9e9edddc-66e8-42c1-b968-ea29abc10052",
-            "Value": {
-                "id": "758de086-2d23-4a21-8194-26e458b4e0c3",
-                "resourcePath": "rooms\\rm_inn_upstairs\\rm_inn_upstairs.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -1220,6 +1212,7 @@
         "f3331d51-825b-4abc-a639-f87d96c359d4",
         "e1c91a49-4255-4775-b2fa-f5c92b194809",
         "cc6033ae-7180-4446-bb86-d96a72cdd8a8"
+        "d0920d42-1f22-4ed6-a465-47018b1f246b"
     ],
     "tutorial": ""
 }
