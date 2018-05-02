@@ -449,11 +449,25 @@
             }
         },
         {
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1041f6897897237ff08cc62d9ce7bb1b8a4e2775
             "Key": "5d7943e3-8311-4a27-b49c-9ab097e387b6",
             "Value": {
                 "id": "b4839359-38b1-4a20-8d65-35d4f166564a",
                 "resourcePath": "objects\\obj_trigger_perm\\obj_trigger_perm.yy",
                 "resourceType": "GMObject"
+<<<<<<< HEAD
+=======
+            "Key": "63a4ad6a-4954-4885-8636-ffb61efb83bc",
+            "Value": {
+                "id": "4514507b-d38c-4f25-a231-b043bdc50c5c",
+                "resourcePath": "tilesets\\tile_timefantasy_indoors\\tile_timefantasy_indoors.yy",
+                "resourceType": "GMTileSet"
+>>>>>>> master
+=======
+>>>>>>> 1041f6897897237ff08cc62d9ce7bb1b8a4e2775
             }
         },
         {
